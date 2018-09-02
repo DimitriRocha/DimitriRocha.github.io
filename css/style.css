@@ -1,0 +1,206 @@
+@font-face {
+	font-family: "SFSemibold";
+	src:url("../assets/fonts/SFUIText-Semibold.ttf");
+}
+
+body{
+	color: #000;
+	overflow-x: hidden;
+}
+
+h1, h2, h3, h4{
+	color: #f33661;
+}
+
+a.nav-link{
+	font-family:"SFSemibold";
+}
+
+p{
+
+}
+
+.nav-masthead .nav-link.pink_highlight{
+	color: #f33661;
+}
+
+.presentation-section{
+	height: 80vh;
+
+}
+
+.landing-text{
+	font-weight: 700;
+	font-size: 3.0rem;
+}
+
+.btn-round{
+	border-radius: 22.5px;
+}
+
+.btn.btn-pink{
+	background-color: transparent;
+	color: #f33661;
+	border-color: #f33661;
+}
+
+.btn.btn-pink:hover{
+	background-color: #f33661;
+	color: #fff;
+}
+
+#drumbBackground{
+	height: 100%;
+	width: 100%;
+	right: 0px;
+	bottom: 0px;
+}
+
+#drumbBackground img{
+	max-height: 100%;
+	max-width: 100%;
+	right: 0px;
+    float: right;
+}
+
+#mockupIphone{
+	height: 100%;
+	width: 100%;
+}
+
+#mockupIphone img{
+	float: right;
+	max-height: 100%;
+    max-width: 80%;
+}
+
+#homemCorrendo{
+	height: 100%;
+	width: 100%;
+	left: 100%;
+}
+
+#homemCorrendo img{
+	max-height: 100%;
+    max-width: 100%;
+	float: left;
+}
+
+#foneDiv{
+	right: 0px;
+	transform: translateY(-35%);
+}
+
+#foneDiv img{
+	width: 100%;
+}
+
+#tenisDiv{
+	height: 100%;
+	width: 100%;
+	left: 0px;
+	transform: translateY(35%);
+
+}
+
+#tenisDiv img{
+	width: 100%;
+}
+
+#mockupIphoneToggle{
+	height: 100%;
+	width: 100%;
+}
+
+#mockupIphoneToggle img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.w-fitContent{
+	width: fit-content;
+}
+
+.pink-background{
+	background-color: #f33661;
+	color: #fff;
+}
+
+.cropVideoCarouselImg{
+	max-height:461px
+}
+
+.cropVideoCarouselImg img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.videoLogo{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.videoLogo img.playBtn{
+	width: 80px;
+	position: relative;
+    top: 40%;
+    left: 40%;
+}
+
+.smiley-background{
+	background-image: url("../assets/img/smileyWoman.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#backToTop {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+	background-color: #f83661;
+    color: white;
+    cursor: pointer;
+    padding: 15px; /* Some padding */
+    border-radius: 50%; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+	height: 60px;
+    width: 60px;
+}
+
+#backToTop:hover {
+    background-color: #fa3651; /* Add a dark-grey background on hover */
+}
+
+.footer-nav{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.footer-nav li {
+    float: left;
+}
+
+.footer-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+@media only screen  and (max-width : 768px) {
+	.footer-nav li{
+		text-align: center;
+		float: none;
+	}
+}
